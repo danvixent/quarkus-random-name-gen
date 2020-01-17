@@ -24,7 +24,7 @@ public class RandomService {
         };
 
         int rand = rand(names.length);
-        return "hello " + names[rand];
+        return names[rand];
     }
 
     int rand(int len){
