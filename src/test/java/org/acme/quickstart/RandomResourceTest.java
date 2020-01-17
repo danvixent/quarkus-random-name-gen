@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 public class RandomResourceTest {
 
     @Test
-    public void testRandomEndpoint() {
+    public void testRandomNameEndpoint() {
         given()
                 .when().get("/random")
                 .then()

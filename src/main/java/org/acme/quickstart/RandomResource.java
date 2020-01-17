@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
 
 import org.jboss.resteasy.annotations.jaxrs.PathParam;
 
-@Path("/random")
+@Path("/randomname")
 public class RandomResource {
 
     @Inject
