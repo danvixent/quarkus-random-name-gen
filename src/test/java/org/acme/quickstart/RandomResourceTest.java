@@ -11,7 +11,7 @@ public class RandomResourceTest {
     @Test
     public void testRandomNameEndpoint() {
         given()
-                .when().get("/random")
+                .when().get("/randomname")
                 .then()
                 .statusCode(200);
     }
